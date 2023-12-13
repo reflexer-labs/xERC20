@@ -1,19 +1,20 @@
 {
-    "name": "Test",
-    "symbol": "TST",
-    "chainDetails": [
-        {
-            "rpcEnvName": "ETHEREUM_GOERLI_RPC",
-            "erc20": "0x0000000000000000000000000000000000000001",
-            "governor": "0x0000000000000000000000000000000000000002",
-            "isGasToken": false,
-            "bridgeDetails": [
-                {
-                    "bridge": "0x0000000000000000000000000000000000000003",
-                    "burnLimit": 1000e18,
-                    "mintLimit": 1000e18
-                }
-            ]
-        }
-    ]
+  "name": "xRAI",
+  "symbol": "xRAI",
+  "chainDetails": [
+    {
+      "rpcEnvName": "ETHEREUM_MAINNET_RPC",
+      "erc20": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919",
+      "governor": "0xa57A4e6170930ac547C147CdF26aE4682FA8262E",
+      "isGasToken": false,
+      "bridgeDetails": []
+    },
+    {
+      "rpcEnvName": "OPTIMISM_MAINNET_RPC",
+      "erc20": "0x0000000000000000000000000000000000000000",
+      "governor": "0x64830dc4f795fa60325ca98e009c84806903183c",
+      "isGasToken": false,
+      "bridgeDetails": []
+    }
+  ]
 }
